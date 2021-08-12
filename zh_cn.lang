@@ -1,0 +1,685 @@
+avatar.category.main=降世神通 MOD
+
+avatar.BendingList=显示御术列表
+avatar.CheatEarthbending=作弊的御术
+avatar.ThrowBlock=投掷方块
+avatar.ToggleBending=拾起方块
+
+avatar.RadialMenu=圆环菜单
+avatar.Bend=使用御术
+avatar.BendingCycleLeft=御术菜单向左转
+avatar.BendingCycleRight=御术菜单向右转
+avatar.Skills=技能菜单
+avatar.Switch=切换御术
+avatar.TransferBison=yip!yip!
+
+avatar.combustionbending=§8§l火爆术
+avatar.combustionbending.demonym=§8§l火爆师
+avatar.earthbending=§2§l运土术
+avatar.earthbending.demonym=§2§l土宗
+avatar.firebending=§c§l制火术
+avatar.firebending.demonym=§c§l火宗
+avatar.waterbending=§9§l截水术
+avatar.waterbending.demonym=§9§l水宗
+avatar.airbending=§f§l截气术
+avatar.airbending.demonym=§f§l气宗
+avatar.lightningbending=§b§l振雷术
+avatar.lightningbending.demonym=§b§l振雷师
+avatar.icebending=§3§l御冰术
+avatar.icebending.demonym=§3§l御冰师
+avatar.sandbending=§6§l运沙术
+avatar.sandbending.demonym=§6§l运沙师
+
+item.avatarmod:basic_glider.name=§l徒·气宗滑翼
+item.avatarmod:master_glider.name=§l§n师·气宗滑翼
+item.avatarmod:glider_part.wing_left.name=左翼
+item.avatarmod:glider_part.wing_right.name=右翼
+item.avatarmod:glider_part.scaffolding.name=滑翼骨架
+
+# Creative tab Localization
+itemGroup.avatarmod=气宗滑翼
+
+# Other
+avatarmod.elytra.error=你不能在装备鞘翅的情况下使用气宗滑翼!
+avatarmod.tooltip.upgrade=升级
+
+avatar.all=§a通用天书
+
+avatar.cmd.bending=管理玩家的御术控制表
+avatar.cmd.bending.list.noData=[error][error_value]没有${player}[/error_value]这个正版账号(也许是你输错名字了)[/error]
+avatar.cmd.bending.list.nonbender=[italic][value]${player}[/value]他/她还不是御术师[/italic]
+avatar.cmd.bending.list.item=- [translate=avatar.${bending}]
+avatar.cmd.bending.list.top=[bold]Listing [value]${amount}[/value]御术控制表用于[value]${player}[/value][/bold]:
+
+avatar.cmd.bending.add.alreadyHas=[error][error_value]${player}[/error_value]你已经学会[error_value][translate=avatar.${bending}.demonym][/error_value][/error]了.
+avatar.cmd.bending.add.success=[bold][value]${player}[/value]成为一名[value][translate=avatar.${bending}.demonym][/value]了![/bold]
+
+avatar.cmd.bending.remove.doesntHave=[error][error_value]${player}[/error_value]你还不是[error_value][translate=avatar.${bending}.demonym][/error_value][/error].
+avatar.cmd.bending.remove.success=[bold]从[value][translate=avatar.${bending}][/value]获取[value]${player}[/value]![/bold]
+
+avatar.cmd.ability.set.range=[error]技能 XP 必须从[error_value]0[/error_value]到[error_value]100[/error_value].
+avatar.cmd.ability.set.success=[bold]成功设置[value]${player}'s[/value]经验为[value]${ability}[/value]为[value]${amount}[/value][/bold]
+
+avatar.cmd.ability.get=[bold][value]${player}'s[/value]的经验[value]${ability}[/value]是[value]${amount}[/value][/bold]
+
+avatar.cmd.cfg.exception1=[error]尝试重新加载配置时出错[/error]
+avatar.cmd.cfg.exception2=[error]详细信息：[error_value]${details}[/error_value]查看日志了解更多信息[/error]
+
+avatar.cmd.cfg.successful=[bold]成功重新加载配置值[/bold]
+
+avatar.cmd.pp.add=增加的[value]${player}'s[/value] [value][translate=avatar.${bending}][/value]进度指向[value]${pps}[/value]
+avatar.cmd.pp.get=[value]${player}[/value]当前有[value]${pps}[/value] [value][translate=avatar.${bending}][/value]进度点
+avatar.cmd.pp.set=让[value]${player}[/value][value][translate=avatar.${bending}][/value]进展指向[value]${pps}[/value]
+avatar.cmd.pp.set.range=[error]进度点必须大于0[/error]
+
+avatar.spec.locked=绑定按键为
+avatar.spec.lvl1=壹阶
+avatar.spec.lvl2=贰阶
+avatar.spec.lvl3=叁阶
+avatar.spec.lvl4=肆阶
+avatar.spec.lvl4_1=肆阶第壹分支
+avatar.spec.lvl4_2=肆阶第贰分支
+avatar.cmd.xpset=将[value]${player}[/value]的[value]${ability}[/value]进度设置为[value][translate=avatar.spec.${spec}]了[/value]
+avatar.cmd.noAbility=你还没有对应的御术 %s
+
+avatar.spec.tier1=壹阶
+avatar.spec.tier2=贰阶
+avatar.spec.tier3=叁阶
+avatar.spec.tier4=肆阶
+avatar.spec.tier5=伍阶
+avatar.spec.tier6=陆阶
+avatar.spec.tier7=柒阶
+avatar.spec.parentTier1=需要壹阶
+avatar.spec.parentTier2=需要贰阶
+avatar.spec.parentTier3=需要叁阶
+avatar.spec.parentTier4=需要肆阶
+avatar.spec.parentTier5=需要伍阶
+avatar.spec.parentTier6=需要陆阶
+avatar.spec.parentTier7=需要柒阶
+
+avatar.donthavebending=[error]你还没学过${bending}.要学会它,输入: [error_value]/avatar bending add ${username} ${bending}[/error_value][/error]
+avatar.nochi=气息不足!
+avatar.airBubbleElytra=你不能在使用鞘翅的时候使用气泡
+avatar.bisonStats=这只飞天野牛有${food}%%的饱腹值,${health}%%生命值,以及${domestication}驯化值
+
+avatar.outOfScrolls=这个御术师的背包是空的,你没法从他那交易到任何卷轴
+avatar.needTradeItem=您需要消耗钻石、黄金或绿宝石才能交易到卷轴！
+avatar.needAirTradeItem=你需要消耗钻石、黄金、绿宝石、龙息、不死图腾或鞘翅才能交易到卷轴！
+avatar.needFireTradeItem=你需要消耗钻石、金锭、绿宝石、岩浆膏或烈焰棒才能交易到卷轴！
+avatar.staffCooldown=截气杖正在冷却中！
+avatar.gliderElytra=你不能一边穿着鞘翅一边使用气宗滑翼！
+avatar.abilityCooldown=该技能仍在冷却中！
+avatar.reload=能力属性文件加载失败！你的能力目前不起作用,退出并重新加载世界以解决这个问题
+
+avatar.abilityLocked=您需要先解锁该能力！
+avatar.bisonNoFood=你的野牛饿得飞不起来！你需要先给它喂苹果或干草才行
+avatar.bisonSitting=你的野牛坐好了
+avatar.bisonChestSlots1=你的野牛虽然现在没有多少存储空间,但随着年龄的增长,存储空间也会变得越来越多
+avatar.skatingBendingDisabled=[error]在水上漂升到贰阶之前,您还不能在水上漂时使用御术[/error]
+avatar.sandPrisonDisabled.sand=目标必须在沙子上才能被你的运沙术困住
+avatar.sandPrisonDisabled.bendable=目标必须在与土相关的方块上才能被你的运土术困住
+avatar.lightningRedirected=你易向了${lightningbender}'的§l§b闪电!
+avatar.canUpgradeAbility=[bold]\[AvatarMod2]你知道吗?[aqua]§l你可以将你的能力[/aqua][translate=avatar.ability.${ability}]§f§l升级到[translate=avatar.spec.lvl${newLevel}]了[/bold]
+avatar.canUpgradeAbility2=\[AvatarMod2]§l你只需要在圆环菜单里把鼠标悬停在能力上并单击右键就行
+avatar.canUpgradeAbility3=\[AvatarMod2]§l不过你还需要消耗一卷[translate=avatar.${bendingType}]天书§f§l或[yellow]通用天书[/yellow]才能升级
+avatar.earthSourceFail=您需要在可御术的方块范围内才能使用该能力！
+avatar.waterSourceFail=你需要直视水源或靠近水源才能截水,这取决于您的截水术水平
+avatar.onCooldown=该技能仍在冷却中！
+
+avatar.announcement.today=[bold][red]\[AvatarMod Announcement][/red] \[today]:[/bold] ${announcement}
+avatar.announcement.yesterday=[bold][red]\[AvatarMod Announcement][/red] \[yesterday]:[/bold] ${announcement}
+avatar.announcement.days=[bold][red]\[AvatarMod Announcement][/red] \[${days} days ago]:[/bold] ${announcement}
+
+avatar.bisonWhistle.summon=您的飞天野牛已被召唤,大约会在 ${time} 秒后到达！
+avatar.bisonWhistle.assign=将此野牛哨绑定到 ${bison}
+avatar.bisonWhistle.notAssigned=[error]这个野牛哨还没有绑定飞天野牛,用它点击野牛来绑定它[/error]
+avatar.bisonWhistle.notFound=[error]${bison}不再存在于物理世界中[/error]
+avatar.bisonWhistle.notOwned=[error]这只飞天野牛不属于你[/error]
+avatar.bisonWhistle.untamed=[error]这只飞天野牛是野生的,你需要先驯服它[/error]
+avatar.bisonWhistle.tooltipBound=已经绑定到%s了
+avatar.bisonWhistle.tooltipUnbound=还没有绑定到飞天野牛
+avatar.bisonWhistle.transferAway=您的飞天野牛${bison}已经转移到${newOwner}了
+avatar.bisonWhistle.transferTo=你现在拥有了${oldOwner}'的飞天野牛${bison}!
+avatar.bisonWhistle.noTransfer=[error]最近没有人想要转移飞天野牛[/error]
+avatar.bisonWhistle.transferAway.start=${newOwner}想要拥有你的飞天野牛${bison},按[keybinding=avatar.TransferBison]来同意、忽视、拒绝他的请求
+avatar.bisonWhistle.transferTo.start=已经向${oldOwner}发送消息确认${bison}的转移
+avatar.bisonWhistle.transferAway.ignore=忽略带有${newOwner}的传输
+avatar.bisonWhistle.transferTo.ignore=${oldOwner}选择不回应你的转移请求
+avatar.bisonWhistle.transferOffline=[error]这头野牛不是你的,你还不能转移它,因为它的伙伴${owner}已经离线了[/error]
+avatar.bisonWhistle.followOn=飞天野牛现在将开始跟着你了
+avatar.bisonWhistle.followOff=飞天野牛不再跟着你了
+avatar.bisonWhistle.nearby=[error]你的飞天野牛已经到了[/error]
+
+avatar.specialtyScroll.success=你已经解锁过[translate=avatar.${specialtyBending}]了!
+avatar.specialtyScroll.fail=[error]对不起,在学习[translate=avatar.${specialtyBending}]之前,你需要先学习[translate=avatar.${mainBending}] [/error]
+avatar.specialtyScroll.alreadyHave=[error]你已经解锁过[translate=avatar.${specialtyBending}]了[/error]
+avatar.specialtyScroll.tooltip=[aqua]可以用来解锁或升级[translate=avatar.${bending}][/aqua]
+
+avatar.ability.earth_control=§2§l拔地摇山
+avatar.ability.earth_control.desc=使用运土术移动可操控的方块,把它们放在你想放的位置,或者掷向你的敌人!
+avatar.ability.earth_control.lvl1=就像打桌球一样!
+avatar.ability.earth_control.lvl2=土石的投掷变得更快更远!更大的御术拾取半径和范围!
+avatar.ability.earth_control.lvl3=更高的伤害、更快的速度、更大的御术拾取范围！您现在可以携带2个方块了！
+avatar.ability.earth_control.lvl4_1=§2§l§o物归原主 ;; 方块在成功命中后会自己回来！现在你可以让3个方块围绕着你旋转了！
+avatar.ability.earth_control.lvl4_2=§2§l§o陨星 ;; 击中物体时会产生爆炸！简单粗暴的分支,却也能粗中有细：)
+
+avatar.ability.mine_blocks=§2§l开天辟地
+avatar.ability.mine_blocks.desc=挖开方块,凿出隧道!
+avatar.ability.mine_blocks.lvl1=能挖掘数个方块的一招
+avatar.ability.mine_blocks.lvl2=挖掘方块的数量提升
+avatar.ability.mine_blocks.lvl3=这招在挖掘的时候会附带壹阶时运了！挖掘方块的数量再次提升！
+avatar.ability.mine_blocks.lvl4_1=§2§l獾鼹之魂 ;; 可以挖开非常长的隧道,并附带了叁阶时运
+avatar.ability.mine_blocks.lvl4_2=§2§l普鲁同的贪婪(罗马冥王) ;;附带了专门用来开采矿脉的肆阶时运
+
+avatar.ability.ravine=§2§l穷崖绝谷
+avatar.ability.ravine.desc=这会在地面上震出一道又窄又强大的裂缝,地动山摇!
+avatar.ability.ravine.lvl1=缓慢延展的基本裂缝
+avatar.ability.ravine.lvl2=裂缝的展开速度变得更快了
+avatar.ability.ravine.lvl3=现在这招能摧毁非实体方块了
+avatar.ability.ravine.lvl4_1=§2§l§o山崩地裂 ;; 一切阻碍都将被突破!这招不会再震动方块,因为它们都已经被摧毁了
+avatar.ability.ravine.lvl4_2=§2§l§o地动山摇 ;; 这招将会在地面上创造出一道冲击波!冲击波有几率震飞敌人穿的盔甲和手中的武器
+
+avatar.ability.wall=§2§l扶土成墙
+avatar.ability.wall.desc=这招会在自己面前竖起一道屏障,可以用它挡下来袭的炮弹和怪物
+avatar.ability.wall.lvl1=创造一堵墙
+avatar.ability.wall.lvl2=墙会变得更大,距离更远
+avatar.ability.wall.lvl3=墙再次增大,距离再次提升
+avatar.ability.wall.lvl4_1=§2§l§o猛击、粉碎 ;; 你造出的墙将会变得无比巨大,你也可以把墙的碎片发射出去攻击敌人
+avatar.ability.wall.lvl4_2=§2§l§o垣正 ;; 聚起城墙围住自己全身并推开四周的敌人
+
+avatar.ability.earth_redirect=§2§l天翻地覆
+avatar.ability.earth_redirect.desc=右击易向你附近的方块,也可以选择对着地面右击用冲击波震颤敌阵!
+avatar.ability.earth_redirect.lvl1=
+avatar.ability.earth_redirect.lvl2=
+avatar.ability.earth_redirect.lvl3=
+avatar.ability.earth_redirect.lvl4_1=
+avatar.ability.earth_redirect.lvl4_2=
+
+avatar.ability.earth_spikes=§2§l排山
+avatar.ability.earth_spikes.desc=这招会在你充能完成后排起一道地刺!
+avatar.ability.earth_spikes.lvl1=夯实大地,把它变成一把致命的利刃
+avatar.ability.earth_spikes.lvl2=更大、更强的利刃
+avatar.ability.earth_spikes.lvl3=属性全面提升,现在的[排山]会从你的位置向前延伸出一条由地刺组成的线
+avatar.ability.earth_spikes.lvl4_1=§2§l§o灾变捕获 ;; 在你周围或你看的地方划出一片尖刺圈,不仅能捕获敌人,也是一堵临时的墙
+avatar.ability.earth_spikes.lvl4_2=§2§l§o地壳撕裂 ;; 在你指向的地方会创造出一片地刺,那里的敌人会被送上天空
+
+avatar.ability.restore=§2§l休养生息
+avatar.ability.restore.desc=汲取大地的力量帮助你战斗,增加韧性,加快你气息的回复
+avatar.ability.restore.lvl1=获得抗性提升,但代价是你的速度,就像乌龟一样....乌龟? ? ?
+avatar.ability.restore.lvl2=你可以从周围区域吸取能量来慢慢治愈自己
+avatar.ability.restore.lvl3=缓慢效果减轻,回复速度增加,你也会获得力量的提升
+avatar.ability.restore.lvl4_1=§2§l§o生命守护 ;; 力量和抵抗力提升,气息大幅度恢复
+avatar.ability.restore.lvl4_2=§2§l§o生命维系 ;; 额外附加了即时的气息再生,饥饿不再
+
+avatar.ability.fire_shot=§c§l赤炎射击
+avatar.ability.fire_shot.desc=一种具备攻击能力的小型实用工具,能升起火焰阻击敌人并烧掉基本物品!(剑指)
+avatar.ability.fire_shot.lvl1=星火燎原!
+avatar.ability.fire_shot.lvl2=更快的飞行速度,更大的威力!
+avatar.ability.fire_shot.lvl3=速度和威力再次提升!烤熟食物也不再是什么难事!
+avatar.ability.fire_shot.lvl4_1=§c§l§o豪情壮志 ;; 属性全面提升
+avatar.ability.fire_shot.lvl4_2=§c§l§o炽热爆发 ;; 从火焰的射击变成了一圈火焰冲击波!
+
+avatar.ability.flame_strike=§c§l炽热冲击
+avatar.ability.flame_strike.desc=凝聚火的力量进行打击,从拳中振出的火焰将会熔毁一切!
+avatar.ability.flame_strike.lvl1=用力量的元素重击敌人!
+avatar.ability.flame_strike.lvl2=庞大的火焰冲击波!
+avatar.ability.flame_strike.lvl3=巨量的伤害会摧毁一切!
+avatar.ability.flame_strike.lvl4_1=§c§l§o凤凰之息 ;; 从你的拳头中会迸发出彻骨的火焰弧摧毁一切!
+avatar.ability.flame_strike.lvl4_2=§c§l§o龙之怒焰 ;; 五彩的压缩火焰会产生短时爆炸摧毁一切!
+
+avatar.ability.flamethrower=§c§l烈焰喷射
+avatar.ability.flamethrower.desc=一股强大的近距离火焰,制火术的标志实在是太棒了!
+avatar.ability.flamethrower.lvl1=火宗的短距离攻击方式
+avatar.ability.flamethrower.lvl2=火焰的量近乎翻了一倍,气息也消耗的更快了
+avatar.ability.flamethrower.lvl3=更长的喷射距离,更加精准的烈焰,还有硕大无比的伤害!
+avatar.ability.flamethrower.lvl4_1=§c§l§o龙之息 ;; 五彩的高压火焰!你仿佛都能闻到盔甲融化的味道了!
+avatar.ability.flamethrower.lvl4_2=§c§l§o凤之怒 ;; 巨大的,不集中的火焰.木头,树叶,到处都被火焰点着了
+
+avatar.ability.fireball=§c§l骄阳
+avatar.ability.fireball.desc=一个发光的火球,它在撞击时会引发火焰爆炸
+avatar.ability.fireball.lvl1=Firrreeeeballllll
+avatar.ability.fireball.lvl2=更大更好!
+avatar.ability.fireball.lvl3=直接命中后造成的伤害会增加数吨,火球的飞行速度提升!
+avatar.ability.fireball.lvl4_1=§c§l§o火焰弹幕 ;; 会有3个火球围绕着你旋转了!
+avatar.ability.fireball.lvl4_2=§c§l§o浓缩愤怒 ;; 几秒充能,更大爆炸
+
+avatar.ability.flame_glide=§c§l炎火之足
+avatar.ability.flame_glide.desc=用火将你推进一段距离,在起步时会伤害你周围的敌人!
+avatar.ability.flame_glide.lvl1=火焰之脚!
+avatar.ability.flame_glide.lvl2=加长推进距离!
+avatar.ability.flame_glide.lvl3=在你着陆后也会伤害周围的敌人！
+avatar.ability.flame_glide.lvl4_1=§c§l§o烈焰爆发 ;; 电光石火般的火焰冲刺！起步和落地后都会产生冲击波,冷却时间降低
+avatar.ability.flame_glide.lvl4_2=§c§l§o翔龙 ;; 五彩的焰火!虽然速度减缓了,但推进时间延长,飞的也更高
+
+avatar.ability.immolate=§c§l火神祭
+avatar.ability.immolate.desc=暂时提升你的御火术能力,但在此过程中你可能会烧到自己
+avatar.ability.immolate.lvl1=被烧灼着的感觉
+avatar.ability.immolate.lvl2=你的火宗法技艺更加精进了
+avatar.ability.immolate.lvl3=烧到自己的可能性减少,增益效果也变得更强
+avatar.ability.immolate.lvl4_1=§c§l§o炽热之心 ;; 持续时间大幅度延长,提升生命回复,并且你不会再烧到自己了！
+avatar.ability.immolate.lvl4_2=§c§l§o炼狱 ;; 不仅强化效果更进一步,你附近的投射物也都将被焚毁!
+
+avatar.ability.fire_wall=§c§l火墙
+avatar.ability.fire_wall.desc=从地面上竖起一道临时火墙!火墙不仅可以摧毁较弱的炮弹,还可以作为一种进攻手段!
+avatar.ability.fire_wall.lvl1=火焰墙会摧毁掉2级以下的投射物,再减缓那些没能摧毁的
+avatar.ability.fire_wall.lvl2=增加持续时间、伤害和摧毁次数!
+avatar.ability.fire_wall.lvl3=火墙规模显著增加;摧毁和减速的能力再次增加!
+avatar.ability.fire_wall.lvl4_1=§c§l§o深红剃刀 ;; 摧毁的等级和伤害显著增加!可以将火墙发射出去了!
+avatar.ability.fire_wall.lvl4_2=§c§l§o日珥 ;; 能量阶级提升.现在,你能在你周围创造出一堵圆形彩虹屏障了！
+
+avatar.ability.swirling_inferno=§c§l回旋炼狱
+avatar.ability.swirling_inferno.desc=两团毁灭性的充能火球!
+avatar.ability.swirling_inferno.lvl1=按住右键充能的两个旋转火球!
+avatar.ability.swirling_inferno.lvl2=数值全面提升,充能时间略微减少,伤害和爆炸强度增加!
+avatar.ability.swirling_inferno.lvl3=速度和爆炸强度显著提高,火球的力量已经足以摧毁方块了!
+avatar.ability.swirling_inferno.lvl4_1=§c§l§o回旋之星 ;; 足以贯穿敌人的单个巨大火球!虽然速度变慢了一点,却能在撞击地面时产生巨大爆炸!!
+avatar.ability.swirling_inferno.lvl4_2=§c§l§o长虹贯日 ;; 速度和伤害疯狂增加,足以穿透敌人的彩虹烈焰!
+
+avatar.ability.fire_redirect=§c§l火保
+avatar.ability.fire_redirect.desc=易向或摧毁你准星附近袭来的炮火!在圆环菜单中不可见
+avatar.ability.fire_redirect.lvl1=不仅可以按住shift自动易向一级以下的投射物,还可以左键点击摧毁掉两级以下的投射物!
+avatar.ability.fire_redirect.lvl2=主动摧毁的能力提升了!摧毁投射物的射程增加
+avatar.ability.fire_redirect.lvl3=自动易向的能力提升了!易向的半径显著提升
+avatar.ability.fire_redirect.lvl4_1=§c§l§o神龙之舞 ;; 特化自动易向等级!你现在不仅可以易向喷向你的火焰,还能按下Shift吸收火焰了!
+avatar.ability.fire_redirect.lvl4_2=§c§l§o分裂之星 ;; 特化主动摧毁等级!左键摧毁的范围显著增加!
+
+avatar.ability.water_bubble=§9§l水泡
+avatar.ability.water_bubble.desc=悬浮并运输一块水泡,如同一个远程的桶.可以选择进攻将它抛射出去,也可以选择按住鼠标右键造出一面盾牌
+avatar.ability.water_bubble.lvl1=你可以截出一个极其通用的水泡!其他种类的水也行
+avatar.ability.water_bubble.lvl2=你现在能够从雪和冰中汲取水了,御术的拾取范围增加,数值全面增加
+avatar.ability.water_bubble.lvl3=防护能力大大提高,你现在能够从植物中汲取水了,你在抛出水泡时也会创造出一个永久存在的水源
+avatar.ability.water_bubble.lvl4_1=§9§l§o潮汐炸弹 ;; 不仅进攻和充能的能力大幅度增加,水盾也将变得坚固异常
+avatar.ability.water_bubble.lvl4_2=§9§l§o旋涡 ;; 泡泡会绕着你形成一个圈,如同一面可以发射弹丸的盾牌
+
+
+avatar.ability.water_arc=§9§l水单鞭
+avatar.ability.water_arc.desc=截水术最基础的攻击方式之一,向你的敌人打出一个可以偏转投射物的带尾水弧,但只有在水附近的时候才能使用
+avatar.ability.water_arc.lvl1=基础水单鞭
+avatar.ability.water_arc.lvl2=汲取水的范围更远,水花加大,可以从雪和冰中汲取水了
+avatar.ability.water_arc.lvl3=你现在可以从植物中汲取水了,水单鞭的打击变得更迅速,投射物的偏转数量也变得更多,甚至可以用水单鞭造出短程刀片(按住鼠标右键并移动鼠标)
+avatar.ability.water_arc.lvl4_1=§9§l§o飞瀑流泉 ;; 释放出大量的近战组合弧线,切割非实体的植物
+avatar.ability.water_arc.lvl4_2=§9§l§o月之弧 ;; 如同游动的鱼儿一样向各个方向打出水弧,不仅会使更多的投射物偏转,还能释放出冲击波或高压水弧
+
+avatar.ability.wave=§9§l倒海
+avatar.ability.wave.desc=掀起一波水浪冲走你的敌人!
+avatar.ability.wave.lvl1=滔 滔 不 绝
+avatar.ability.wave.lvl2=更大,更快,更强,更加非常
+avatar.ability.wave.lvl3=水浪尺寸显著增大
+avatar.ability.wave.lvl4_1=§9§l§o惊涛骇浪 ;; 掀起巨浪
+avatar.ability.wave.lvl4_2=§9§l§o潮起潮落 ;; 你获得用水浪将敌人拉向你的能力
+
+avatar.ability.water_skate=§9§l水上漂
+avatar.ability.water_skate.desc=一种避水的方法,可以让你不用再绕过水面而直接在水面上或其他方块上跑
+avatar.ability.water_skate.lvl1=漂过水面,但在水面上不能使用能力
+avatar.ability.water_skate.lvl2=在冰面上的时候也能水上漂,而且水上漂的速度变得更快了!
+avatar.ability.water_skate.lvl3=今非昔比的速度,而且你已经可以在流水上滑冰和偏转炮弹了!
+avatar.ability.water_skate.lvl4_1=§9§l§o静默 ;; 现在,你甚至能够在水之外的方块上水上漂了!
+avatar.ability.water_skate.lvl4_2=§9§l§o汹涌的大海 ;; 你可以以反复跳跃的方式制造冲击波
+
+avatar.ability.water_blast=§9§l集水爆炸
+avatar.ability.water_blast.desc=从水袋中取出三份水流造出高压水炮冲击敌阵,不过它还需要一段时间来充能
+avatar.ability.water_blast.lvl1=基本的蓄力、水流和爆炸
+avatar.ability.water_blast.lvl2=伤害略微增大,你现在可以汲取水和冰了
+avatar.ability.water_blast.lvl3=更多的伤害,你现在只需要在含水的方块附近就能使用高压水炮,不需要再对着水汲水了!
+avatar.ability.water_blast.lvl4_1=§9§l§oBOOM和爆裂 ;; 充能速度和消耗水量减少,伤害和击退显著增加!
+avatar.ability.water_blast.lvl4_2=§9§l§o推和拉 ;; 充能时获得护盾,敌人也会被充能拉过来,充能的状态可以被无期限维持
+
+avatar.ability.cleanse=§9§l涤垢洗瑕
+avatar.ability.cleanse.desc=给予自己和附近的玩家一个生命恢复与御术加成的效果
+avatar.ability.cleanse.lvl1=这就像是一个免费淋浴!
+avatar.ability.cleanse.lvl2=附近的玩家也会被顺便恢复生命
+avatar.ability.cleanse.lvl3=额外给自己附加一个饱和效果
+avatar.ability.cleanse.lvl4_1=§9§l§o鼓舞 ;; 额外获得即时的生命提升
+avatar.ability.cleanse.lvl4_2=§9§l§o聚精会神 ;; 在战斗中会造成更多伤害,移动速度增加
+
+
+avatar.ability.air_gust=§f§l空气迸发
+avatar.ability.air_gust.desc=截走一股强大的气流吹飞敌人,还可以用这股气流触发木质的按钮和压力板!
+avatar.ability.air_gust.lvl1=这是会击退敌人的一招!
+avatar.ability.air_gust.lvl2=更大的、可以穿透敌人的气流,这股气流已经足以按下石头机关了!
+avatar.ability.air_gust.lvl3=这股小型的超快弹丸现在可以摧毁掉较弱的投射物了!
+avatar.ability.air_gust.lvl4_1=§f§l§o空气弹丸 ;; 高速的弹丸将会把投射物直接摧毁!
+avatar.ability.air_gust.lvl4_2=§f§l§o风墙 ;; 一阵巨大的飙风,虽然速度比以前慢了,但可以减缓投射物!
+
+avatar.ability.air_jump=§f§l驾风鞭霆
+avatar.ability.air_jump.desc=操纵周围的空气来使你离开地面.非常适合用来追上毫无戒心的敌人
+avatar.ability.air_jump.lvl1=穿越空气的跳跃
+avatar.ability.air_jump.lvl2=略微提高跳跃能力
+avatar.ability.air_jump.lvl3=跳跃属性全面提升
+avatar.ability.air_jump.lvl4_1=§f§l§o双重跳跃 ;; 跳跃距离翻倍,但气息的消耗也会翻倍
+avatar.ability.air_jump.lvl4_2=§f§l§o对地打击 ;; 在跳起的同时会打击附近的敌人
+
+avatar.ability.airblade=§f§l气流刃
+avatar.ability.airblade.desc=一把垂直旋转并足以撕裂血肉的气流刃!
+avatar.ability.airblade.lvl1=用它切出一块块丁和片吧!
+avatar.ability.airblade.lvl2=更快的速度和更高的伤害
+avatar.ability.airblade.lvl3=这股气流现在已经强到足以摧毁非实体方块了!
+avatar.ability.airblade.lvl4_1=§f§l§o五爪金龙 ;; 5股足以贯穿敌人的超高速小型气流刃!
+avatar.ability.airblade.lvl4_2=§f§l§o回旋镖  ;; 一把会返还给你的水平旋转气流刃！
+
+avatar.ability.cloudburst=§f§l云爆
+avatar.ability.cloudburst.desc=一团可以射出的旋转空气球,在命中的同时会产生一股小型气流
+avatar.ability.cloudburst.lvl1=可以发射出去的压缩云!
+avatar.ability.cloudburst.lvl2=更快的速度,更大的爆炸,这团云现在可以用它按下石头按钮了!
+avatar.ability.cloudburst.lvl3=更大的伤害,更大的爆炸,这团云现在可以用它打开铁活板门和铁门了!
+avatar.ability.cloudburst.lvl4_1=§f§l§o气息粉碎 ;; 成功命中后,对方的御术会被暂时削弱
+avatar.ability.cloudburst.lvl4_2=§f§l§o吸收 ;; 你的云爆弹现在可以吸收飞来的炮弹来增加它的伤害
+
+avatar.ability.air_bubble=§f§l气泡
+avatar.ability.air_bubble.desc=在你周围创造出一圈气泡来保护自己免受即将到来的攻击.但它需要用大量的气息才能维持
+avatar.ability.air_bubble.lvl1=*别碰这个*
+avatar.ability.air_bubble.lvl2=气泡体型增大
+avatar.ability.air_bubble.lvl3=弹射投射物的次数提升
+avatar.ability.air_bubble.lvl4_1=§f§l§o飓风之墙 ;; 你的气泡再也无法被打破了,只有气息用完后气泡才会消失
+avatar.ability.air_bubble.lvl4_2=§f§l§o暗流 ;; 你将会悬浮在空中,再也无法被偷袭了
+
+avatar.ability.air_burst=§f§l气流爆
+avatar.ability.air_burst.desc=慢慢地吸入周围的空气,最后释放出巨大的气流来击退附近的敌人!充满能后点击左键释放气流！
+avatar.ability.air_burst.lvl1=需要按住右键四秒来积蓄力量!
+avatar.ability.air_burst.lvl2=充能时间减少.伤害,范围和击退增加;你只需3秒就能充能完毕了!
+avatar.ability.air_burst.lvl3=属性全面增强!两秒就能充能完毕了!
+avatar.ability.air_burst.lvl4_1=§f§l刺骨寒风 ;; 气流爆现在更精准伤害更高了.如此凶猛的风甚至能够把敌人刮的致盲、减速、虚弱了!
+avatar.ability.air_burst.lvl4_2=§f§l暴雨云 ;; 在充能时会慢慢将敌人吸过来!!气流半径巨幅增大!充能更迅速,甚至气流镭射!
+
+avatar.ability.slipstream=§f§l随心逐流
+avatar.ability.slipstream.desc=将自己包围在一团空气中以提高你的移动速度
+avatar.ability.slipstream.lvl1=基本速度提升
+avatar.ability.slipstream.lvl2=速度提升的同时也将增加你的跳跃高度
+avatar.ability.slipstream.lvl3=间歇性地获得隐身,增益效果提升
+avatar.ability.slipstream.lvl4_1=§f§l§o圣洁清风 ;; 你近战和截气的能力将会得到加强
+avatar.ability.slipstream.lvl4_2=§f§l§o飞遁如风 ;; 增益效果加强,隐形频率提升,你现在已经可以腾云驾雾了!
+
+avatar.ability.lightning_redirect=§b§l闪电易向
+avatar.ability.lightning_redirect.desc=这是你将闪电易向的能力,不会出现在圆环菜单中
+avatar.ability.lightning_redirect.lvl1=你有60%的几率将闪电易向,小心!
+avatar.ability.lightning_redirect.lvl2=你有70%的几率将闪电易向
+avatar.ability.lightning_redirect.lvl3=你有80%的几率将闪电易向
+avatar.ability.lightning_redirect.lvl4_1=你有90%的几率易向闪电
+avatar.ability.lightning_redirect.lvl4_2=你有90%的几率易向闪电
+
+avatar.ability.lightning_spear=§b§l青龙
+avatar.ability.lightning_spear.desc=一段可射出的闪电(南少林剑指桩)
+avatar.ability.lightning_spear.lvl1=基本的闪电矛,这支矛就算在水中也能击中目标
+avatar.ability.lightning_spear.lvl2=更快的投掷速度
+avatar.ability.lightning_spear.lvl3=伤害大幅度提升
+avatar.ability.lightning_spear.lvl4_1=§b§l强弓劲弩 ;; 这道雷电可以贯穿目标了,它将会把后面的连同前面的一并穿成串
+avatar.ability.lightning_spear.lvl4_2=§b§l雷云 ;; 在青龙击中一个目标后,它2格内的目标也会受到伤害
+
+
+
+avatar.ability.lightning_arc=§b§l电流星散
+avatar.ability.lightning_arc.desc=壮观的闪电弧会炸翻你的敌人!撞击地面时会产生爆炸,但不会在其他生物或玩家身上炸开
+avatar.ability.lightning_arc.lvl1=快用这招吓死你潜在的男朋友(动画后期梗)
+avatar.ability.lightning_arc.lvl2=闪电流动得更快,电弧和地面碰撞时的爆炸规模增大
+avatar.ability.lightning_arc.lvl3=电弧的伤害大幅度增加,碰撞地面时产生的爆炸再次提升
+avatar.ability.lightning_arc.lvl4_1=§b§l暴烈的闪电 ;; 提升巨量伤害,但攻击范围会稍微减小
+avatar.ability.lightning_arc.lvl4_2=§b§l电闪雷鸣 ;; 不仅电弧爆炸变得干净利落,爆炸和打击的范围也大幅度提升!
+
+avatar.ability.lightning_raze=§b§l驱雷掣电
+avatar.ability.lightning_raze.desc=你看向的地方将会被降下雷霆!但不怎么准
+avatar.ability.lightning_raze.lvl1=莫哈哈哈哈哈哈哈
+avatar.ability.lightning_raze.lvl2=雷击频率增加,雷击持续时间增加,雷击次数增加,命中率增加
+avatar.ability.lightning_raze.lvl3=所有数值全面增加,包括伤害!
+avatar.ability.lightning_raze.lvl4_1=§b§l宙斯之怒 ;; 在你注视着的地方,超级精准、超级快、超级危险的闪电将会被倾泻下来
+avatar.ability.lightning_raze.lvl4_2=§b§l托尔之怒 ;; 用你可以控制的巨大雷云来攻击你的敌人,可以在20个方块之外形成!不过伤害很低
+
+
+
+avatar.ability.ice_prison=§3§l冰天雪窑
+avatar.ability.ice_prison.desc=用冰块将敌人包裹起来,坚硬的冰块会在短时间内困住他们
+avatar.ability.ice_prison.lvl1=用这招拖延你的敌人
+avatar.ability.ice_prison.lvl2=冰牢的持续时间略微延长
+avatar.ability.ice_prison.lvl3=冰牢破碎时,被困住的人会受到伤害
+avatar.ability.ice_prison.lvl4_1=§3§l§o冻伤 ;; 被困住的人会不断受到伤害
+avatar.ability.ice_prison.lvl4_2=§3§l§o冰河冰 ;; 就算是太阳和制火术也不能融化你的冰了
+
+avatar.ability.ice_burst=§3§l冰霜爆裂
+avatar.ability.ice_burst.desc=将你自己封闭在一个冰球中以阻挡伤害.冰球被打碎时,它会向四面八方射出强大的碎片
+avatar.ability.ice_burst.lvl1=保护自己免受伤害
+avatar.ability.ice_burst.lvl2=碎片造成的伤害稍微增多
+avatar.ability.ice_burst.lvl3=冰盾的生命值略微增加
+avatar.ability.ice_burst.lvl4_1=§3§l§o瞄准系统 ;; 部分冰碎片会自动瞄准怪物,当你被很多怪物围攻时会非常有用
+avatar.ability.ice_burst.lvl4_2=§3§l§o硬化冰 ;; 冰盾的生命值大幅度提升
+
+
+avatar.ability.sand_prison=§6§l画地为牢
+avatar.ability.sand_prison.desc=用沙子制造一个陷阱暂时捕获你的敌人
+avatar.ability.sand_prison.lvl1=拖延你敌人的一招
+avatar.ability.sand_prison.lvl2=你可以通过操纵小沉积物捕获任何土块中的目标
+avatar.ability.sand_prison.lvl3=沙牢解除后会对敌人造成减速效果
+avatar.ability.sand_prison.lvl4_1=§6§l粗粒 ;; 沙牢解除后会对被捕获的人造成伤害
+avatar.ability.sand_prison.lvl4_2=§6§l根深蒂固 ;; 就算是气宗也吹不走你的沙子
+
+avatar.ability.sandstorm=§6§l飞沙走石
+avatar.ability.sandstorm.desc=这招将会扬起一阵旋风卷走敌人!
+avatar.ability.sandstorm.lvl1=旋风会卷走实体并在沙龙卷消失后甩下它们;但这阵旋风容易被截气术打乱
+avatar.ability.sandstorm.lvl2=旋风的移动速度和移动距离稍微提升
+avatar.ability.sandstorm.lvl3=目标被甩出旋风的时候,它会遭受到旋风强烈的鞭笞!
+avatar.ability.sandstorm.lvl4_1=§6§l沙龙卷 ;; 沙暴的移动速度大幅度加快,而且它不再会被截气术打乱了
+avatar.ability.sandstorm.lvl4_2=§6§l痛苦回旋 ;; 旋风夹杂的沙粒会对被卷起的目标造成持续的轻微伤害
+
+
+avatar.ability.explosion=§8§l流星赶月
+avatar.ability.explosion.desc=闪-闪-爆-炸-男!!!爆炸会摧毁掉讨厌的敌人!不过要小心一点,你可能会伤到你自己!
+avatar.ability.explosion.lvl1=我.要.点.火.柴!别.再.放.屁.了!这招会朝你目之所及之处制造爆炸,击中的目标会被送上天空！不过流星只能射击二十个方块以内的目标
+avatar.ability.explosion.lvl2=爆炸范围稍微增大！如果能炸飞敌人就更好了！！
+avatar.ability.explosion.lvl3=射程提升到30格！更大的爆炸！
+avatar.ability.explosion.lvl4_1=§8§l§o百步穿杨 ;; 荒谬的射程提升,但爆炸范围会变得超小
+avatar.ability.explosion.lvl4_2=§8§l§oBOOOOOOOOOOOOOOOOOOM ;; 有目共睹的巨大爆炸,直接命中后将会造成荒谬的伤害.不过,这招只能射到30个方块以内
+
+avatar.ability.explosive_pillar=§8§l轰天烈地
+avatar.ability.explosive_pillar.desc=多枚爆炸会从你到你朝向的位置排成直线延伸出去
+avatar.ability.explosive\u pillar.lvl1=BOOM-BOOM-BOOM-BOOM BOOOOOOOOOM!
+avatar.ability.explosive\u pillar.lvl2=更大的爆炸,更频繁地爆炸,也将进一步提升攻击范围
+avatar.ability.explosive\u pillar.lvl3=超级-迅猛的爆炸！我的小心肝啊！
+avatar.ability.explosive_pillar.lvl4_1=§8§l§o众星捧月 ;; 一次射出3颗流星引发的三根柱状爆炸.大爆炸的同时也会附带一些小爆炸,射程不会太远,但爆炸频率很多,这会很有意思的
+avatar.ability.explosive_pillar.lvl4_2=§8§l§oBOOOOOM ;; 具有毁灭性的、令人瞠目结舌的大爆炸.但爆炸间隙延长,爆炸次数不会再像以前那样多了
+
+
+
+avatar.ability.undefined=???
+
+avatar.ui.level0=壹阶
+avatar.ui.level1=贰阶
+avatar.ui.level2=叁阶
+avatar.ui.level3=-登峰造极-
+avatar.ui.path_first=第壹条分支
+avatar.ui.path_second=第贰条分支
+avatar.ui.unlock=技能绑定
+avatar.ui.unlockDesc=花费[translate=avatar.${bending}]天书或通用天书来解锁
+avatar.ui.unlockDescSpecialty=花费[translate=avatar.${bendingMain}]天书、[translate=avatar.${bendingSpecialty}]天书或通用天书来解锁
+avatar.ui.skillsMenu=[translate=avatar.${bending}]招式图
+
+avatar.radial.undefined=即将推出！
+avatar.radial.xp=[translate=avatar.ui.level${level}] ${xp}%%
+avatar.radial.max=MAX级 [translate=avatar.ui.path_${xp}]
+avatar.radial.locked1=这个技能尚未解锁
+avatar.radial.locked2=按${level}解锁
+avatar.radial.lockedCreative2=现在处于创造模式,你可以随意使用尚未解锁的技能
+
+avatar.getBending.title=解锁御术
+avatar.getBending.incompatible=您只能使用对应的卷轴或通用类型的卷轴才能解锁
+avatar.getBending.guide=你需要使用3卷对应的卷轴或通用的卷轴才能解锁
+
+avatar.key.none1=没有绑定按键
+avatar.key.none2=单击可绑定按键
+avatar.key.set1=%1$s
+avatar.key.set2=单击可绑定按键
+avatar.key.editing1=输入任意键绑定按键
+avatar.key.editing2=按下 ESC 解除绑定
+avatar.key.conflict1=%1$s
+avatar.key.conflict2=与%1$s冲突
+
+Death.attack.avatar_Fire=%1$s被%2$s用§c§l制火术化为灰烬！
+death.attack.avatar_Fire_fireShot=%1$s被%2$s的§c§l[赤炎射击]烧死了！
+death.attack.avatar_Fire_flamethrower=%1$s刚刚被%2$s§c§l烤熟了！
+death.attack.avatar_Fire_dragonFire=%1$s被%2$s§c§l净化了！
+Death.attack.avatar_Fire_fireball=%2$s用§c§l[骄阳]将%1$s§c§l化为灰烬！
+death.attack.avatar_Fire_shockWave=%2$s被%1$s的§c§l[炽热冲击]火葬了！
+Death.attack.avatar_Fire_sphere_shockWave=%2$s的烈焰迸发出来将%1$s§c§l点燃！
+
+death.attack.avatar_Water=%1$s被%2$s的§9§l截水术淹没了！
+death.attack.avatar_Water_waterArc=%2$s的§9§l[水单鞭]淹没了%1$s！
+death.attack.avatar_Water_wave=%1$s§9§l没学过如何冲浪！
+death.attack.avatar_Water_waterBlast=%1$s无法承受%2$s§9§l水炮的压力！
+death.attack.avatar_Water_shockWave=%1$s被%2$s的§9§l惊涛骇浪所淹没！
+death.attack.avatar_Water_sphere_shockWave=%2$s用爆裂的激流将%1$s炸翻了！
+
+death.attack.avatar_Air=%1$s被%2$s的§f§l截气术刮走了！
+death.attack.avatar_Air_airblade=%1$s被%2$s§f§l切成了片！
+death.attack.avatar_Air_shockWave=%2$s引起冲击波将%1$s§f§l刮走了！
+Death.attack.avatar_Air_sphere_shockWave=%2$s的[空气爆裂]将%1$s§f§l撕裂！
+
+death.attack.avatar_Earth=%1$s被%2$s的§2§l运土术压碎了！
+death.attack.avatar_Earth_floatingBlock=%2$s利用§2§l方块粉碎了%1$s！
+death.attack.avatar_Earth_ravine=%2$s将%1$s在§2§l[穷崖绝谷]中§2§l压碎！
+death.attack.avatar_Earth_earthspikes=%2$s用§2§l[排山]将%1$s§2§l刺伤！
+death.attack.avatar_Earth_shockWave=%2$s的冲击波将%1$s§2§l击倒！
+death.attack.avatar_Earth_sphere_shockWave=%1$s被%2$s的§2§l[地壳撕裂]化为齑粉！
+
+death.attack.avatar_Sand=%1$s被%2$s的§6§l运沙术窒息了！
+death.attack.avatar_Sand_sandPrison=%1$s被%1$s的§6§l[沙牢]埋葬了！
+death.attack.avatar_Sand_sandstorm=%1$s被%2$s扬起的尘土§6§l扑灭了生命之火！
+death.attack.avatar_Sand_shockWave=%2$s用沙龙卷将%1$s§6§l窒息！
+death.attack.avatar_Sand_sphere_shockWave=%2$s的[飞沙走石]将%1$s§6§l窒息！
+
+Death.attack.avatar_Combustion=%1$s被%2$s的§8§l火爆术炸成了碎片！
+death.attack.avatar_Combustion_shockWave=%2$s被%1$s的§8§l[流星赶月]炸碎了！
+death.attack.avatar_Combustion_sphere_shockWave=%2$s被%1$s的§8§l[轰天裂地]炸的连灰都不剩！
+
+death.attack.avatar_Lightning=%1$s被%2$s的§b§l振雷术震颤了！
+death.attack.avatar_Lightning_redirected=%1$s的闪电被%2$s逆向回§b§l他自己身上了！
+death.attack.avatar_Lightning_lightningSpear=%2$s指尖激发出的[青龙]在%1$s§b§l身上开了一个洞！
+death.attack.avatar_Lightning_shockWave=%2$s的[电流星散]将%1$s§b§l蒸发！
+death.attack.avatar_Lightning_sphere_shockWave=%2$s驱来了雷电将%1$s§b§l蒸发！
+
+death.attack.avatar_Ice=%1$s被%2$s的§3§l御冰术冻结了！
+death.attack.avatar_Ice_icePrison=%1$s被%2$s§3§l彻底冻结！
+death.attack.avatar_Ice_iceShard=%1$s被%2$s§3§l炸开的冰碎片刺伤！
+death.attack.avatar_Ice_shockWave=%2$s掀起的冰浪将%1$s§3§l冻结！
+death.attack.avatar_Ice_sphere_shockWave=%2$s的§3§l[冰霜爆裂]将%1$s§3§l击碎！
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+entity.Airbender.name=§f§l气宗
+entity.Firebender.name=§c§l火宗
+entity.Waterbender.name=§9§l水宗
+entity.SkyBison.name=飞天野牛
+entity.OtterPenguin.name=水獭企鹅
+entity.OstrichHorse.name=鸵马
+
+itemGroup.avatar.items=降卋神通
+
+item.avatarmod:scroll.all.1.name=§l壹阶§d§l天书
+item.avatarmod:scroll.air.1.name=§l壹阶§f§l截气§d§l天书
+item.avatarmod:scroll.fire.1.name=§l壹阶§c§l制火§d§l天书
+item.avatarmod:scroll.earth.1.name=§l壹阶§2§l运土§d§l天书
+item.avatarmod:scroll.water.1.name=§l壹阶§9§l截水§d§l天书
+item.avatarmod:scroll.lightning.1.name=§l壹阶§b§l振雷§d§l天书
+item.avatarmod:scroll.ice.1.name=§l壹阶§3§l御冰§d§l天书天书
+item.avatarmod:scroll.sand.1.name=§l壹阶§6§l运沙§d§l天书
+item.avatarmod:scroll.combustion.1.name=§l壹阶§8§l火爆§d§l天书
+
+item.avatarmod:scroll.all.2.name=§l贰阶§d§l天书
+item.avatarmod:scroll.air.2.name=§l贰阶§f§l截气§d§l天书
+item.avatarmod:scroll.fire.2.name=§l贰阶§c§l制火§d§l天书
+item.avatarmod:scroll.earth.2.name=§l贰阶§2§l运土§d§l天书
+item.avatarmod:scroll.water.2.name=§l贰阶§9§l截水§d§l天书
+item.avatarmod:scroll.lightning.2.name=§l贰阶§b§l振雷§d§l天书
+item.avatarmod:scroll.ice.2.name=§l贰阶§3§l御冰§d§l天书
+item.avatarmod:scroll.sand.2.name=§l贰阶§6§l运沙§d§l天书
+item.avatarmod:scroll.combustion.2.name=§l贰阶§8§l火爆§d§l天书
+
+item.avatarmod:scroll.all.3.name=§l叁阶§d§l天书
+item.avatarmod:scroll.air.3.name=§l叁阶§f§l截气§d§l天书
+item.avatarmod:scroll.fire.3.name=§l叁阶§c§l制火§d§l天书
+item.avatarmod:scroll.earth.3.name=§l叁阶§2§l运土§d§l天书
+item.avatarmod:scroll.water.3.name=§l叁阶§9§l截水§d§l天书
+item.avatarmod:scroll.lightning.3.name=§l叁阶§b§l振雷§d§l天书
+item.avatarmod:scroll.ice.3.name=§l叁阶§3§l御冰§d§l天书
+item.avatarmod:scroll.sand.3.name=§l叁阶§6§l运沙§d§l天书
+item.avatarmod:scroll.combustion.3.name=§l叁阶§8§l火爆§d§l天书
+
+item.avatarmod:scroll.all.4.name=§l肆阶§d§l天书
+item.avatarmod:scroll.air.4.name=§l肆阶§f§l截气§d§l天书
+item.avatarmod:scroll.fire.4.name=§l肆阶§c§l制火§d§l天书
+item.avatarmod:scroll.earth.4.name=§l肆阶§2§l运土§d§l天书
+item.avatarmod:scroll.water.4.name=§l肆阶§2§l截水§d§l天书
+item.avatarmod:scroll.lightning.4.name=§l肆阶§b§l振雷§d§l天书
+item.avatarmod:scroll.ice.4.name=§l肆阶§3§l御冰§d§l天书
+item.avatarmod:scroll.sand.4.name=§l肆阶§6§l运沙§d§l天书
+item.avatarmod:scroll.combustion.4.name=§l肆阶§8§l火爆§d§l天书
+
+item.avatarmod:scroll.all.5.name=§l伍阶§d§l天书
+item.avatarmod:scroll.air.5.name=§l伍阶§f§l截气§d§l天书
+item.avatarmod:scroll.fire.5.name=§l伍阶§c§l制火§d§l天书
+item.avatarmod:scroll.earth.5.name=§l伍阶§2§l运土§d§l天书
+item.avatarmod:scroll.water.5.name=§l伍阶§9§l截水§d§l天书
+item.avatarmod:scroll.lightning.5.name=§l伍阶§b§l振雷§d§l天书
+item.avatarmod:scroll.ice.5.name=§l伍阶§3§l御冰§d§l天书
+item.avatarmod:scroll.sand.5.name=§l伍阶§6§l运沙§d§l天书
+item.avatarmod:scroll.combustion.5.name=§l伍阶§8§l火爆§d§l天书
+
+item.avatarmod:scroll.all.6.name=§l陆阶§d§l天书
+item.avatarmod:scroll.air.6.name=§l陆阶§f§l截气§d§l天书
+item.avatarmod:scroll.fire.6.name=§l陆阶§c§l制火§d§l天书
+item.avatarmod:scroll.earth.6.name=§l陆阶§2§l运土§d§l天书
+item.avatarmod:scroll.water.6.name=§l陆阶§9§l截水§d§l天书
+item.avatarmod:scroll.lightning.6.name=§l陆阶§b§l振雷§d§l天书
+item.avatarmod:scroll.ice.6.name=§l陆阶§3§l御冰§d§l天书
+item.avatarmod:scroll.sand.6.name=§l陆阶§6§l运沙§d§l天书
+item.avatarmod:scroll.combustion.6.name=§l陆阶§8§l火爆§d§l天书
+
+item.avatarmod:scroll.all.7.name=§l柒阶§d§l天书
+item.avatarmod:scroll.air.7.name=§l柒阶§f§l截气§d§l天书
+item.avatarmod:scroll.fire.7.name=§l柒阶§c§l制火§d§l天书
+item.avatarmod:scroll.earth.7.name=§l柒阶§2§l运土§d§l天书
+item.avatarmod:scroll.water.7.name=§l柒阶§9§l截水§d§l天书
+item.avatarmod:scroll.lightning.7.name=§l柒阶§b§l振雷§d§l天书
+item.avatarmod:scroll.ice.7.name=§l柒阶§3§l御冰§d§l天书
+item.avatarmod:scroll.sand.7.name=§l柒阶§6§l运沙§d§l天书
+item.avatarmod:scroll.combustion.7.name=§l柒阶§8§l火爆§d§l天书
+
+
+item.avatarmod:empty_experience_bottle.name=附魔之瓶
+item.avatarmod:water_pouch.name=革制水袋
+item.avatarmod:bison_whistle.name=野牛哨
+
+item.avatarmod:bison_saddle.basic.name=基本野牛鞍
+item.avatarmod:bison_saddle.sturdy.name=坚固野牛鞍
+item.avatarmod:bison_saddle.studded.name=铆钉野牛鞍
+item.avatarmod:bison_saddle.majestic.name=雄伟野牛鞍
+
+item.avatarmod:bison_armor.woven.name=野牛编织甲
+item.avatarmod:bison_armor.chain.name=野牛链甲
+item.avatarmod:bison_armor.wrought.name=野牛锻甲
+item.avatarmod:bison_armor.legendary.name=传说中的野牛甲
+
+item.avatarmod:ostrich_equip.woven.name=鸵马编织甲
+item.avatarmod:ostrich_equip.chain.name=鸵马链甲
+item.avatarmod:ostrich_equip.plate.name=金质鸵马甲
+
+item.avatarmod:airbender_staff.name=截气杖
+
+tile.avatarmod:cloudblock.name=块状云朵
+
+avatar.tooltip.water_pouch=%d/5水量
+avatar.tooltip.water_pouch.empty=空空如也
